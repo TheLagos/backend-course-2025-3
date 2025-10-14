@@ -1,3 +1,2 @@
-node_modules/ # для модулів
-
-*.docx # про всяк випадок для моїх звітів
+node_modules/
+*.docx
