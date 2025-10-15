@@ -35,9 +35,9 @@ if (options.rainfall) {
 }
 
 const resultLines = processedData.map(item => {
-  let line = `rainfall: ${item.Rainfall}, pressure: ${item.Pressure3pm}`;
+  let line = `${item.Rainfall}, ${item.Pressure3pm}`;
   if (options.humidity) {
-    line += `, humadity: ${item.Humidity3pm}`;
+    line += `, ${item.Humidity3pm}`;
   }
   return line;
 })
